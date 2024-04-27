@@ -31,7 +31,7 @@ const Overview = () => {
                     lineHeight: '30px',
                 }}>
                     <p className="text-lg mb-6">
-                        For over 10 years, we've created magic through lenses as hobbyists and volunteers. We now bring these years of
+                        For over 10 years, we&apos;ve created magic through lenses as hobbyists and volunteers. We now bring these years of
                         experience and expertise to our clients; understanding their story, taking in their emotions, aligning with
                         their essence & vision; then leveraging storytelling to captivate hearts and invoke expressions.
                     </p>
