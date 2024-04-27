@@ -37,7 +37,6 @@ const Overview = () => {
                     </p>
                     <p className="text-lg mb-6">We get to know you to show you off, giving life to your imagination.</p>
                     <Link className="font-caudex font-thin text-2xl" href="#">
-                        {/* Apply the style object to the button */}
                         <h2 style={buttonStyle}>About us</h2>
                     </Link>
                 </div>
