@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'caudex': ['Caudex', 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,6 +17,38 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-};
+  plugins: [
+    require("tailwindcss-animate"),
+    function({ addComponents }) {
+      const newComponents = {
+        '.caudex-regular': {
+          fontFamily: '"Caudex", serif',
+          fontWeight: '400',
+          fontStyle: 'normal',
+        },
+        '.caudex-bold': {
+          fontFamily: '"Caudex", serif',
+          fontWeight: '700',
+          fontStyle: 'normal',
+        },
+        '.caudex-regular-italic': {
+          fontFamily: '"Caudex", serif',
+          fontWeight: '400',
+          fontStyle: 'italic',
+        },
+        '.caudex-bold-italic': {
+          fontFamily: '"Caudex", serif',
+          fontWeight: '700',
+          fontStyle: 'italic',
+        },
+        '.caudex-light': {
+          fontFamily: '"Caudex", serif',
+          fontWeight: '100',
+          fontStyle: 'normal',
+        },
+      }
 
+      addComponents(newComponents)
+    }
+  ],
+};
