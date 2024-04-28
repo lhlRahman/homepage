@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const BestShots = () => {
     const [imageIndex, setImageIndex] = useState(0);
-    const images = ["/images/bestshot.png", "/images/logo.png", "/images/bestshot.png", "/images/logo.png", "/images/bestshot.png", "/images/logo.png"]
+    const images = ["/images/bestshot.png", "/images/logo.png", "/images/background.png","/images/bestshot.png", "/images/logo.png", "/images/background.png"]
 
     // Function to go to the next image
     const nextImage = () => {
