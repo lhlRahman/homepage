@@ -20,8 +20,14 @@ export const Header = () => {
   };
 
   return (
-    <header className="relative font-caudex w-screen h-[100vh]">
-      <Image src="/images/background.png" layout="fill" objectFit="cover" />
+    <header className="relative font-caudex w-screen h-[100vh] z-10">
+      <Image
+        src="/images/background.png"
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: "cover"
+        }} />
       <div className="absolute top-0 right-0 w-full h-full flex flex-col justify-center items-end text-right space-y-4 bg-black bg-opacity-50 px-4 sm:px-8 md:px-16 lg:px-32">
         <h1 className="text-4xl font-bold text-white mx-auto sm:text-5xl sm:mr-24" style={{
           fontWeight: '400',
@@ -46,6 +52,6 @@ export const Header = () => {
           <h3 style={buttonStyle}>BROWSE OUR SERVICES</h3>
         </Link>
       </div>
-    </header>  
-  )
+    </header>
+  );
 }
