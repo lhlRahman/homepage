@@ -46,7 +46,7 @@ const BestShots = () => {
                     Best Shots
                 </h1>
                 <p className="font-helvetica text-[22px] leading-[26px] max-w-md mt-4" style={{ color: 'rgba(55, 54, 51, 0.8)', fontWeight: 400 }}>
-                    Explore the artistry behind each frame and discover why we&apos;re the trusted choice for capturing life's most precious moments.
+                    Explore the artistry behind each frame and discover why we&apos;re the trusted choice for capturing life&apos;s most precious moments.
                 </p>
             </div>
             <div className="absolute bg-transparent right-[600px]" style={{
