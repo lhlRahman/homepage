@@ -3,6 +3,9 @@ import { NavBar } from "../components/NavBar";
 import { Navigation } from "@/components/Navigation";
 import Overview from "@/components/Overview";
 import BestShots from "@/components/BestShots";
+import Services from "@/components/Services";
+import Reviews from "@/components/Reviews";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
     <Navigation/>
     <Overview/>
     <BestShots/>
+    <Services/>
+    <Reviews/>
+    <Footer/>
   </div>
     
   );
